@@ -57,3 +57,65 @@ Each entity contains components. In the case of this system, the components of t
 14. if was another request :
 *  call requests
 15. end
+
+### Usecase 2:
+### canceling a membership
+
+1. stare
+2. refrense to library
+3. Librarians logs in system
+5. import username and password on Respective box
+6. if information is correct log in
+7. else show massage "try again"
+8. after log in:
+9. import member's information
+10. account will be delete
+11.  if was another request :
+*  call requests
+12. end
+
+### Usecase 3:
+### borrowing existing books
+
+1. start
+2. log in system
+3. import username and password
+4. log in if password is correct 
+5. if password is not correct :
+* have 3 chanse to import correct password
+* if after 3 time password is not correct user can not log in until 1 hour
+6. if password was correct , import book information
+7. if book is not exist in library :
+* show message "the book is not exist"
+8. if book is exist:
+* show bookid
+9. user logs out
+10. user goes to librarianse
+11. Librarians logs in system
+12. import username and password on Respective box
+13. if information is correct log in
+14. else show massage "try again"
+15. after log in:
+16. The librarian registers the book as a borrow to the user.
+17.  if was another request :
+*  call requests
+18. end
+
+### Usecase 4:
+### Return of borrowed books
+
+1. stare
+2. refrense to library
+3. Librarians logs in system
+5. import username and password on Respective box
+6. if information is correct log in
+7. else show massage "try again"
+8. after log in:
+9. call Routine of return book
+10.  if was another request :
+*  call requests
+11. end
+
+### Usecase 5:
+### Change member user information
+
