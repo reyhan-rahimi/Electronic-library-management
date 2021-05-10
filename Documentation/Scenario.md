@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # in the name of GOD
 ## Scenario of Lesson project scenario of software engineering laboratory
 ## Title : Electronic library managment
@@ -55,7 +55,7 @@ Each entity contains components. In the case of this system, the components of t
 12. if evrything is correct show massage "success"
 13. log out if not to be another request
 14. if was another request :
-*  call requests
+*  call requests Routine 
 15. end
 
 ### Usecase 2:
@@ -64,14 +64,15 @@ Each entity contains components. In the case of this system, the components of t
 1. stare
 2. refrense to library
 3. Librarians logs in system
-5. import username and password on Respective box
-6. if information is correct log in
-7. else show massage "try again"
-8. after log in:
-9. import member's information
-10. account will be delete
+4. import username and password on Respective box
+5. if information is correct log in
+6. else show massage "try again"
+7. after log in:
+8. import member's information
+9. account will be delete
+10. log out if not to be another request
 11.  if was another request :
-*  call requests
+*  call requests Routine 
 12. end
 
 ### Usecase 3:
@@ -97,9 +98,10 @@ Each entity contains components. In the case of this system, the components of t
 14. else show massage "try again"
 15. after log in:
 16. The librarian registers the book as a borrow to the user.
-17.  if was another request :
-*  call requests
-18. end
+17. log out if not to be another request
+18.  if was another request :
+*  call requests Routine 
+19. end
 
 ### Usecase 4:
 ### Return of borrowed books
@@ -112,10 +114,58 @@ Each entity contains components. In the case of this system, the components of t
 7. else show massage "try again"
 8. after log in:
 9. call Routine of return book
-10.  if was another request :
-*  call requests
-11. end
+10. log out if not to be another request
+11.  if was another request :
+*  call requests Routine 
+12. end
 
 ### Usecase 5:
 ### Change member user information
 
+1. stare
+2. refrense to library
+3. Librarians logs in system
+5. import username and password on Respective box
+6. if information is correct log in
+7. else show massage "try again"
+8. after log in:
+9. call Update information Routine
+10. import user information
+11. change user information
+12. log out if not to be another request
+13. if was another request :
+*  call requests Routine 
+14. end
+
+### Usecase 6:
+### Registering a book order 
+
+1. start
+2. Librarians logs in system
+3. import username and password on Respective box
+4. if information is correct log in
+5. else show massage "try again"
+6. after log in:
+7. import name of  books that were required
+8. create PDF file of book's name
+9. log out if not to be another request
+10. if was another request :
+*  call requests Routine 
+11. end
+
+### Usecase 7:
+### Extending the book deadline
+
+
+1. start
+2. log in system
+3. import username and password
+4. log in if password is correct 
+5. if password is not correct :
+* have 3 chanse to import correct password
+* if after 3 time password is not correct user can not log in until 1 hour
+6. call Extension routine
+7. import book information
+8. book will be Extended for 5 daays
+9. log out of sesyem
+10. end
