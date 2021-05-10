@@ -2,11 +2,11 @@
 # in the name of GOD
 ## Scenario of Lesson project scenario of software engineering laboratory
 ## Title : Electronic library managment
-teacher : mr mostafa alinaghi por
-date : 6.may.2021
-members:
-* reyhane hassan rahimi
-* raziye kamali
+## teacher : mr mostafa alinaghi por
+## date : 6.may.2021
+## members:
+### * reyhane hassan rahimi
+### * raziye kamali
 
 
 ### The purpose of the scenario:
