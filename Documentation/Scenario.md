@@ -1,12 +1,12 @@
 
 # in the name of GOD
 ## Scenario of Lesson project scenario of software engineering laboratory
-## Title : Electronic library managment
-## teacher : mr mostafa alinaghi por
-## date : 6.may.2021
-## members:
-### * reyhane hassan rahimi
-### * raziye kamali
+### Title : Electronic library managment
+### teacher : mr mostafa alinaghi por
+### date : 6.may.2021
+### members:
+* reyhane hassan rahimi , stdID: 97149026
+* raziye kamali , stdID: 97149082
 
 
 ### The purpose of the scenario:
@@ -26,29 +26,30 @@ Since today managing libraries manually is impossibl idea and inefficient, it's 
 ### Persons involved:
 
 1. Librarians 
-2. members
+2. Users
 
 ### Identify system entities :
 
-Each entity contains components. In the case of this system, the components of the book, member, and librarian are as follows:
+Each entity contains components. In the case of this system, the components of the book, User, and librarian are as follows:
 
 
 * book (Book ID , Book Name , Writer Name)
 * Librarians (Librarians ID , Librarianse Naame , Librarianse Lastname)
-* Meember (Member ID , Name , Lastname , NationId , date of bitrthday , job , addres , email)
+* User (User ID , Name , Lastname , NationId , date of bitrthday , job , addres , email)
 
 ### Usecase 1:
 ### adding a membership
 
 1. stare
-2. refrense to library
-3. membership request with personal doucuments
+2. User refrense to library
+3. request membership  with personal doucuments
 4. Librarians logs in system
 5. import username and password on Respective box
 6. if information is correct log in
 7. else show massage "try again"
 8. after log in:
-9. import member's information
+9. call adding a membership's routine
+9. import Users's information
 10. if this informathin was exist :
 * show massage "this account is exist"
 11. else system chacks information 
@@ -62,13 +63,14 @@ Each entity contains components. In the case of this system, the components of t
 ### canceling a membership
 
 1. stare
-2. refrense to library
+2. User refrense to library
 3. Librarians logs in system
 4. import username and password on Respective box
 5. if information is correct log in
 6. else show massage "try again"
 7. after log in:
-8. import member's information
+8. call canceling a membership's routine
+8. import Users's information
 9. account will be delete
 10. log out if not to be another request
 11.  if was another request :
@@ -79,51 +81,54 @@ Each entity contains components. In the case of this system, the components of t
 ### borrowing existing books
 
 1. start
-2. log in system
+2. User logs in system
 3. import username and password
 4. log in if password is correct 
 5. if password is not correct :
 * have 3 chanse to import correct password
 * if after 3 time password is not correct user can not log in until 1 hour
-6. if password was correct , import book information
-7. if book is not exist in library :
+6. if password was correct : call book information's routine
+7. import book information
+8. if book is not exist in library :
 * show message "the book is not exist"
-8. if book is exist:
+9. if book is exist:
 * show bookid
-9. user logs out
-10. user goes to librarianse
-11. Librarians logs in system
-12. import username and password on Respective box
-13. if information is correct log in
-14. else show massage "try again"
-15. after log in:
-16. The librarian registers the book as a borrow to the user.
-17. log out if not to be another request
-18.  if was another request :
+10. user logs out
+11. user goes to librarianse
+12. Librarians logs in system
+13. import username and password on Respective box
+14. if information is correct log in
+15. else show massage "try again"
+16. after log in:
+17. call  borrowing existing book's routine
+17. The librarian registers the book as a borrow to the user.
+18. log out if not to be another request
+19.  if was another request :
 *  call requests Routine 
-19. end
+20. end
 
 ### Usecase 4:
 ### Return of borrowed books
 
 1. stare
-2. refrense to library
+2. User refrense to library
 3. Librarians logs in system
 5. import username and password on Respective box
 6. if information is correct log in
 7. else show massage "try again"
 8. after log in:
 9. call Routine of return book
-10. log out if not to be another request
-11.  if was another request :
+10. Record book as returned
+11. log out if not to be another request
+12.  if was another request :
 *  call requests Routine 
-12. end
+13. end
 
 ### Usecase 5:
 ### Change member user information
 
 1. stare
-2. refrense to library
+2. User refrense to library
 3. Librarians logs in system
 5. import username and password on Respective box
 6. if information is correct log in
@@ -146,6 +151,7 @@ Each entity contains components. In the case of this system, the components of t
 4. if information is correct log in
 5. else show massage "try again"
 6. after log in:
+7. call Registering a book order's routine
 7. import name of  books that were required
 8. create PDF file of book's name
 9. log out if not to be another request
@@ -158,7 +164,7 @@ Each entity contains components. In the case of this system, the components of t
 
 
 1. start
-2. log in system
+2. User logs in system
 3. import username and password
 4. log in if password is correct 
 5. if password is not correct :
