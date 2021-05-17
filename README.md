@@ -8,14 +8,14 @@ this project is a web-site that designed and developed for all of librarys.the L
 
 ## project requirements:
 ### functional requirements:
-* Easy access to the site
-* Site features should be high
-* Categorize information correctly
+* Easy access to the site.
+* Site features should be high.
+* Categorize information correctly.
 
 ### Non-functional requirements:
-* Be beautiful in appearance
-* Ability to have high requests
-* The variety of books on the site is high
+* Be beautiful in appearance.
+* Ability to have high requests.
+* The variety of books on the site is high.
 
 ## Project documents:
 ### project scenario and needs assessment
