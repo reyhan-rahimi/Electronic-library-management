@@ -113,16 +113,16 @@ Each entity contains components. In the case of this system, the components of t
 1. start
 2. User refrense to library
 3. Librarians logs in system
-5. import username and password on Respective box
-6. if information is correct log in
-7. else show massage "try again"
-8. after log in:
-9. call Routine of return book
-10. Record book as returned
-11. log out if not to be another request
-12.  if was another request :
+4. import username and password on Respective box
+5. if information is correct log in
+6. else show massage "try again"
+7. after log in:
+8. call Routine of return book
+9. Record book as returned
+10. log out if not to be another request
+11.  if was another request :
 *  call requests Routine 
-13. end
+12. end
 
 ### Usecase 5:
 ### Change member user information
