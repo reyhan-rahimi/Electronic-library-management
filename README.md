@@ -18,7 +18,7 @@ Non-functional requirements:
 * ...
 
 # Project documents:
-[project scenario](/)
+[project scenario](https://github.com/reyhan-rahimi/Electronic-library-management/blob/main/Documentation/Scenario.md)
 # Developers :
 Name | Email | ID | Role
 ------------ | ------------- | ------------ | -------------
