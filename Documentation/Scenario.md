@@ -49,15 +49,15 @@ Each entity contains components. In the case of this system, the components of t
 7. else show massage "try again"
 8. after log in:
 9. call adding a membership's routine
-9. import Users's information
-10. if this informathin was exist :
+10. import Users's information
+11. if this informathin was exist :
 * show massage "this account is exist"
-11. else system chacks information 
-12. if evrything is correct show massage "success"
-13. log out if not to be another request
-14. if was another request :
+12. else system chacks information 
+13. if evrything is correct show massage "success"
+14. log out if not to be another request
+15. if was another request :
 *  call requests Routine 
-15. end
+16. end
 
 ### Usecase 2:
 ### canceling a membership
@@ -70,12 +70,12 @@ Each entity contains components. In the case of this system, the components of t
 6. else show massage "try again"
 7. after log in:
 8. call canceling a membership's routine
-8. import Users's information
-9. account will be delete
-10. log out if not to be another request
-11.  if was another request :
+9. import Users's information
+10. account will be delete
+11. log out if not to be another request
+12.  if was another request :
 *  call requests Routine 
-12. end
+13. end
 
 ### Usecase 3:
 ### borrowing existing books
@@ -101,16 +101,16 @@ Each entity contains components. In the case of this system, the components of t
 15. else show massage "try again"
 16. after log in:
 17. call  borrowing existing book's routine
-17. The librarian registers the book as a borrow to the user.
-18. log out if not to be another request
-19.  if was another request :
+18. The librarian registers the book as a borrow to the user.
+19. log out if not to be another request
+20.  if was another request :
 *  call requests Routine 
-20. end
+21. end
 
 ### Usecase 4:
 ### Return of borrowed books
 
-1. stare
+1. start
 2. User refrense to library
 3. Librarians logs in system
 5. import username and password on Respective box
@@ -127,20 +127,20 @@ Each entity contains components. In the case of this system, the components of t
 ### Usecase 5:
 ### Change member user information
 
-1. stare
+1. start
 2. User refrense to library
 3. Librarians logs in system
-5. import username and password on Respective box
-6. if information is correct log in
-7. else show massage "try again"
-8. after log in:
-9. call Update information Routine
-10. import user information
-11. change user information
-12. log out if not to be another request
-13. if was another request :
+4. import username and password on Respective box
+5. if information is correct log in
+6. else show massage "try again"
+7. after log in:
+8. call Update information Routine
+9. import user information
+10. change user information
+11. log out if not to be another request
+12. if was another request :
 *  call requests Routine 
-14. end
+13. end
 
 ### Usecase 6:
 ### Registering a book order 
@@ -152,12 +152,12 @@ Each entity contains components. In the case of this system, the components of t
 5. else show massage "try again"
 6. after log in:
 7. call Registering a book order's routine
-7. import name of  books that were required
-8. create PDF file of book's name
-9. log out if not to be another request
-10. if was another request :
+8. import name of  books that were required
+9. create PDF file of book's name
+10. log out if not to be another request
+11. if was another request :
 *  call requests Routine 
-11. end
+12. end
 
 ### Usecase 7:
 ### Extending the book deadline
