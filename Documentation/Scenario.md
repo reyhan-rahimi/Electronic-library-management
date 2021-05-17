@@ -19,7 +19,7 @@ Since today managing libraries manually is impossibl idea and inefficient, it's 
 2. canceling a membership
 3. borrowing existing books
 4. Return of borrowed books
-5. Change member user information 
+5. Change user information 
 6. Registering a book order 
 7. Extending the book deadline 
 
