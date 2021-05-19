@@ -20,7 +20,7 @@ Since today managing libraries manually is impossibl idea and inefficient, it's 
 
 
 ---------------------------------------------------------------
-# Scenario 2 (borrowing existing books)
+# Scenario 3 (borrowing existing books)
 ## Users and those involved in this scenario:
 * User
 * Librarians 
@@ -29,7 +29,7 @@ Since today managing libraries manually is impossibl idea and inefficient, it's 
 
 
 ---------------------------------------------------------------
-# Scenario 2 (creating a new account)
+# Scenario 4 (Return of borrowed books)
 ## Users and those involved in this scenario:
 * User
 * Librarians 
@@ -38,3 +38,29 @@ Since today managing libraries manually is impossibl idea and inefficient, it's 
 
 
 ----------------------------------------------------------------
+# Scenario 5 (Change user information)
+## Users and those involved in this scenario:
+* User
+* Librarians 
+
+## Procedures
+
+
+----------------------------------------------------------------
+# Scenario 6 (Registering a book order)
+## Users and those involved in this scenario:
+* User
+* Librarians 
+
+## Procedures
+
+
+----------------------------------------------------------------
+# Scenario 7 (Extending the book deadline)
+## Users and those involved in this scenario:
+* User
+* Librarians 
+
+## Procedures
+
+
