@@ -4,7 +4,7 @@ this project is a web-site that designed and developed for all of librarys.the L
 ## Technical Specifications:
 * **platform :** windows
 * **programming languages :** backend is with c# and frontend is with html and css 
-* **database :** sql (postgres)
+* **database :** postgre
 
 ## project requirements:
 ### functional requirements:
