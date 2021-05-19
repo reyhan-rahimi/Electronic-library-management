@@ -8,7 +8,7 @@ Since today managing libraries manually is impossibl idea and inefficient, it's 
 * Librarians 
 
 ## Procedures
-
+The user submits his / her documents to the librarian and requests membership. Then the librarian logs in and enters his / her username and ID and if it is correct, otherwise the message "Try again" will be displayed. After logging in, the system requests the necessary information from the library to create an account. If the information already exists then it announces that such a username exists and otherwise the librarian enters the information correctly and checks the information system then sends a success message if there is no error then if there is no other request Logs out of the system. But if there is a new request, it calls it.
 
 --------------------------------------------------------------
 # Scenario 2 (canceling a account)
