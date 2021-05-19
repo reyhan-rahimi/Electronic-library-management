@@ -13,7 +13,7 @@ this project is a web-site that designed and developed for all of librarys.the L
 * borrowing existing books
 
 ### Non-functional requirements:
-* work with postgressql.
+* System backup
 * Passwords can contain letters and numbers.
 * changing connection string on run time.
 
