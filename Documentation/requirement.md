@@ -10,4 +10,4 @@
 ### non-functional requiremen:
 
 1. Record all system events
-2. Security and access restrictions
+2. Security and access restrictions users
