@@ -8,9 +8,9 @@ this project is a web-site that designed and developed for all of librarys.the L
 
 ## project requirements:
 ### functional requirements:
-* Easy access to the site.
-* Site features should be high.
-* Categorize information correctly.
+* adding a membership
+* canceling a membership
+* borrowing existing books
 
 ### Non-functional requirements:
 * Be beautiful in appearance.
