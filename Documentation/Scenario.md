@@ -15,8 +15,8 @@ Since today managing libraries manually is impossibl idea and inefficient, it's 
 
 ### usecases of this system:
 
-1. adding a membership
-2. canceling a membership
+1. creating a new account
+2. canceling a account
 3. borrowing existing books
 4. Return of borrowed books
 5. Change user information 
