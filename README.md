@@ -13,9 +13,9 @@ this project is a web-site that designed and developed for all of librarys.the L
 * borrowing existing books
 
 ### Non-functional requirements:
-* Be beautiful in appearance.
-* Ability to have high requests.
-* The variety of books on the site is high.
+* work with postgressql.
+* Passwords can contain letters and numbers.
+* changing connection string on run time.
 
 ## Project documents:
 ### project scenario and needs assessment
