@@ -27,6 +27,7 @@ The user refers to the librarian member and gives his information to the librari
 
 ## Procedures
 
+The user enters the system and enters his username and password. If the password is correct, if the password is wrong, he will have a chance to try again up to 3 times, and if the password was wrong for the third time, he has the right to log in for one hour. Will then have when the user logs in enters the book information and if the book is not available in the library displays the appropriate message and If the book is available, the system displays the book code to the user, then the user refers to the librarian with the book in his hand and delivers his documents to the librarian. Then the librarian enters the system and enters his username and ID. Correctness is entered, otherwise the message "Try again" is displayed, then after entering, the librarian registers the book for the user, and if he does not have another request, he logs out of the system, otherwise he calls it.
 
 ---------------------------------------------------------------
 # Scenario 4 (Return of borrowed books)
