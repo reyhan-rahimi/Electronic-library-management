@@ -40,8 +40,10 @@ The user enters the system and enters his/her username and password. If the pass
 
 ## Procedures
 
-The user goes to the librarian with the book in his hand and the user with the book logs in and enters his username and ID. Returns the book and enters the name of the book, then the book is returned and the librarian is logged out if he has no other request.
-Can otherwise call it.
+The user goes to the librarian with the book in his/her hand . the Librarian user
+ logs in and enters his/her username and ID.If password entered correctly she/he can enter otherwise the message Try again will be displayed.
+after of enter
+ Call the book return procedure and enters the name of the book, then the book is returned and the librarian is logged out if he/she has no other request. she/he Can otherwise call it.
 
 ----------------------------------------------------------------
 # Scenario 5 (Change user information)
