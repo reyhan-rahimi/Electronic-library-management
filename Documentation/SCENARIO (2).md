@@ -17,7 +17,7 @@ The user submits his / her documents to the librarian and requests membership. T
 * Librarians 
 
 ## Procedures
-
+The user refers to the librarian member and gives his information to the librarian. Then the librarian logs in and enters his username and ID. Enters the desired user information and deletes the user account, and if the librarian has no other request, logs out and calls if there is a new request.
 
 ---------------------------------------------------------------
 # Scenario 3 (borrowing existing books)
