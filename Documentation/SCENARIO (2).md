@@ -37,6 +37,8 @@ The user enters the system and enters his username and password. If the password
 
 ## Procedures
 
+The user goes to the librarian with the book in his hand and the user with the book logs in and enters his username and ID. Returns the book and enters the name of the book, then the book is returned and the librarian is logged out if he has no other request.
+Can otherwise call it.
 
 ----------------------------------------------------------------
 # Scenario 5 (Change user information)
