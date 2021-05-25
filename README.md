@@ -37,4 +37,4 @@ this project is a web-site that designed and developed for all of librarys.the L
 Name  | ID | Role
  ------------- | ------------ | -------------
 Reyhane Hassan Rahimi | [@reyhane-rahimi](https://github.com/reyhan-rahimi) | Back End Developer
-Raziye Kamali | [@Razieh-kamali](https://github.com/Raziye-kamali) | Front End Developer
+Razieh Kamali | [@Razieh-kamali](https://github.com/Raziye-kamali) | Front End Developer
