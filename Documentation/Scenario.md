@@ -53,9 +53,11 @@ after of enter
 
 ## Procedures
 
-The user refers to the librarian and the librarian enters the system and enters his username and ID, then enters if it is a lesson, and if it is wrong, the message will be displayed again, then after entering the change procedure, calls And enters the desired user information and changes the desired information, then after confirming the changes, changes will be applied in the system
-And the librarian is logged out if he has no other request
-And otherwise calls it
+ The user refers to the librarian and Provides its information to the librarian
+and the librarian enters the system and enters his/her username and ID, then enters if it is a correct, and if it is wrong, the message will be displayed again, then after enter,  calls the procedure  for changing information
+ And enters the desired user information and changes the desired information, then after confirming the changes, changes will be applied in the system And the librarian is logged out if he/she has no other request And otherwise calls it
+
+
 
 ----------------------------------------------------------------
 # Scenario 6 (Registering a book order)
