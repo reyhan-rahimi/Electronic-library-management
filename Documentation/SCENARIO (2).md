@@ -48,6 +48,9 @@ Can otherwise call it.
 
 ## Procedures
 
+The user refers to the librarian and the librarian enters the system and enters his username and ID, then enters if it is a lesson, and if it is wrong, the message will be displayed again, then after entering the change procedure, calls And enters the desired user information and changes the desired information, then after confirming the changes, changes will be applied in the system
+And the librarian is logged out if he has no other request
+And otherwise calls it
 
 ----------------------------------------------------------------
 # Scenario 6 (Registering a book order)
