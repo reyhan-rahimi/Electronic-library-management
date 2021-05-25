@@ -72,4 +72,7 @@ The librarian enters the system and enters his username and ID, It is entered
 
 ## Procedures
 
+The user enters the system with his user information and if the information is correct, he can enter the system, and if the password is wrong, he can enter the correct password up to 3 times, and if the wrong password is entered after three times,He is not allowed to enter for up to an hour.then he enters Section ofthe extension of the book deadline, he enters the information of the book and the book is extended for 5 days.
+
+
 
