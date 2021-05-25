@@ -67,8 +67,8 @@ and the librarian enters the system and enters his/her username and ID, then ent
 
 ## Procedures
 
-The librarian enters the system and enters his username and ID, It is entered
- if it is a correct , and if it is incorrect, the message try again will be displayed, then after entering, enters the names of the books requested by the members and the list of books. They are converted to a PDF file, then the librarian logs out of the system if he has no other request, otherwise he calls it.
+The librarian enters the system and enters his/her username and ID, It is entered
+ if it is a correct , and if it is incorrect, the message try again will be displayed, then after entering, enters the names of the books requested by the members and the list of books. They are converted to a PDF file, then the librarian logs out of the system if he has no other request, otherwise he/she calls it.
 
 
 ----------------------------------------------------------------
