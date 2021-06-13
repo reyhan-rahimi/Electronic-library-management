@@ -1,16 +1,18 @@
 # Scheduling Table
 StoryID | StoryName | Significance | StoryPoint |  How does this story work | ImportantPoint
 ------------ | ------------- | ------------- | ------------- | ------------- | ------------- 
-1 | Repository | 150 | 4 | create repository | .
-2 | Project | 150 | 1 | create project with library name | .
-3 | Scenario | 150 | 7 | add scenario file | . 
-4 | README | 150 | 7 | design README.md file | . 
-5 | Requirement | 150 | 7 | add requirement.md file | . 
-6 | Class Diagram  | 150 | Content from cell 2 | Content from cell 2 | .
-7 | Sequence Diagram  | 150 | Content from cell 2 | Content from cell 2 | .
-8 | Activity Diagram | 150 | Content from cell 2 | Content from cell 2 | .
-9 | Usecase Diagram | 150 | Content from cell 2 | Content from cell 2 | .
-10 | Librarian's DataBase | 150 | Content from cell 2 | Content from cell 2 | .
-11 | Users's DataBase | 150 | Content from cell 2 | Content from cell 2 | .
+1 | Repository | 10 | 4 | create repository | .
+2 | Project | 10 | 1 | create project with library name | .
+3 | Scenario | 10 | 7 | add scenario file | . 
+4 | README | 10 | 7 | design README.md file | . 
+5 | Requirement | 10 | 7 | add requirement.md file | . 
+6 | Class Diagram  | 10 | 4 | Drawing Class Diagram | .
+7 | Sequence Diagram  | 10 | 4 | Drawing Sequence Diagram | .
+8 | Activity Diagram | 10 | 4 | Drawing Activity Diagram | .
+9 | Usecase Diagram | 10 | 4 | Drawing Usecase Diagram | .
+10 | Librarian's DataBase | 10 | 4 | Create Librarian's DataBase | .
+11 | Users's DataBase | 10 | 4 | Create Users's DataBase | .
+12 | Book's DataBase | 10 | 4 | Create Book's DataBase | .
+
 
 
