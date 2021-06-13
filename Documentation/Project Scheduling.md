@@ -10,4 +10,7 @@ StoryID | StoryName | Significance | StoryPoint |  How does this story work | Im
 7 | Sequence Diagram  | 150 | Content from cell 2 | Content from cell 2 | .
 8 | Activity Diagram | 150 | Content from cell 2 | Content from cell 2 | .
 9 | Usecase Diagram | 150 | Content from cell 2 | Content from cell 2 | .
-10 | Librarian DataBase | 150 | Content from cell 2 | Content from cell 2 | .
+10 | Librarian's DataBase | 150 | Content from cell 2 | Content from cell 2 | .
+11 | Users's DataBase | 150 | Content from cell 2 | Content from cell 2 | .
+
+
