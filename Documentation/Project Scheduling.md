@@ -1,6 +1,6 @@
 # Scheduling Table
 StoryID | StoryName | Significance | StoryPoint |  How does this story work | ImportantPoint
------------- | ------------- | ------------- | ------------- | ------------- | ------------- 
+------------ | ------------- | ------------- | ------------- | ------------- | - 
 1 | Repository | 10 | 4 | create repository | .
 2 | Project | 10 | 1 | create project with library name | .
 3 | Scenario | 10 | 7 | add scenario file | . 
