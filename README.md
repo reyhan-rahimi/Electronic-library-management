@@ -22,15 +22,15 @@ this project is a web-site that designed and developed for all of librarys.the L
 * [project scenario](/Documentation/Scenario.md)
 * [Project needs assessment](/Documentation/requirement.md)
 ### Project analysis and design
-* [Usecase Diagram] TODO(/)
-* [Activity Diagram] TODO(/)
-* [Class Diagram] TODO(/)
-* [Sequence Diagram] TODO(/)
+* [Usecase Diagram](/Documentation/UsecaseDiagram/usecase.JPG)
+* [Activity Diagram](/Documentation/ActivityDiagram/)
+* [Class Diagram](/Documentation/ClassDiagram/classdiagram.JPG)
+* [Sequence Diagram](/Documentation/SequeneDiagram/)
 * [Another analysis and design documents] TODO(/)
 
 ### Project managment:
 * [Project phasing documentation] TODO(/)
-* [Project scheduling documentation] TODO(/)
+* [Project scheduling documentation](/Documentation/ProjectScheduling.md)
 
 ## Developers :
 **project code :** ##G24
