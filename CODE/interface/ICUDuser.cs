@@ -8,8 +8,9 @@ namespace LibraryUnivercity.interfaces
 {
     public interface ICUDuser
     {
-        public BookModel SearchBook(BookModel bookModel);
-        public BookModel ShowBorrowList(UserModel userModel);
+        public bool SearchBook(BookModel bookModel);
+        public bool ShowBorrowList(UserModel userModel);
         public bool AddTime(UserModel userModel, BookModel bookModel);
+        public bool identityconfirmation(UserModel userModel);
     }
 }

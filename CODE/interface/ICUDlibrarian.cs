@@ -15,7 +15,9 @@ namespace LibraryUnivercity.interfaces
         public bool DeleteBook(BookModel bookModel);
         public bool BorrowBook(UserModel userModel, BookModel bookModel);
         public bool ReturnBook(UserModel userModel, BookModel bookModel);
-        public bool UpdateAccount(UserModel userModel);
+        public bool UpdateAccount(UserModel userModel, int choose);
         public bool CreateOrder(BookModel bookModel);
+        public bool Count(int x);
+        public bool identityconfirmation(LibrarianModel librarianModel);
     }
 }
