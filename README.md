@@ -26,7 +26,6 @@ this project is a web-site that designed and developed for all of librarys.the L
 * [Activity Diagram](/Documentation/ActivityDiagram/)
 * [Class Diagram](/Documentation/image/classDiagram/)
 * [Sequence Diagram](/Documentation/SequeneDiagram/)
-* [Another analysis and design documents] TODO(/)
 
 ### Project managment:
 * [Project phasing documentation] TODO(/)
