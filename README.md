@@ -24,7 +24,7 @@ this project is a web-site that designed and developed for all of librarys.the L
 ### Project analysis and design
 * [Usecase Diagram](/Documentation/UsecaseDiagram/usecase.JPG)
 * [Activity Diagram](/Documentation/ActivityDiagram/)
-* [Class Diagram](/Documentation/ClassDiagram/classdiagram.JPG)
+* [Class Diagram](/Documentation/image/classDiagram/)
 * [Sequence Diagram](/Documentation/SequeneDiagram/)
 * [Another analysis and design documents] TODO(/)
 
