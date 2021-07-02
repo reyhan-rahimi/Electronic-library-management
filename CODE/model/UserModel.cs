@@ -9,6 +9,7 @@ namespace LibraryUnivercity.model
     public class UserModel
     {
         public string UserName { get; set; }
+        public int UserID { get; set; }
         public string UserLastName { get; set; }
         public int UserNationNumber { get; set; }
     }

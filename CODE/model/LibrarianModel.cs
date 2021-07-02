@@ -9,5 +9,6 @@ namespace LibraryUnivercity.model
     {
         public string LibrarianName { get; set; }
         public string LibrarianLastName { get; set; }
+        public string LibrarianPassword { get; set; }
     }
 }
