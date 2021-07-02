@@ -14,6 +14,7 @@ namespace LibraryUnivercity.entity
         public string BookName { get; set; }
         [Required]
         public int BookCode { get; set; }
+        public int Time { get; set; }
         [Required]
         [StringLength(50)]
         public string BookWriter { get; set; }

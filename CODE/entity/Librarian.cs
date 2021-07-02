@@ -16,10 +16,14 @@ namespace LibraryUnivercity.entity
         [StringLength(50)]
         public string LibrarianLastName { get; set; }
         [Required]
+        [StringLength(8)]
+        public string LibrarianPassword { get; set; }
+        [Required]
         [Range(8, 16,
             ErrorMessage = "Price must be between 8(for hous number) and 16(for phone number)")]
         public int LibrarianPhoneNumber { get; set; }
         [Required]
         public string LibrarianAddress { get; set; }
+       
     }
 }

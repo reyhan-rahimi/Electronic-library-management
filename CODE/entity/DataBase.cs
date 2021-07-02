@@ -18,6 +18,7 @@ namespace LibraryUnivercity.entity
         public DbSet<Books> books { get; set; }
         public DbSet<Librarian> librarians { get; set; }
         public DbSet<User> users  { get; set; }
+        public DbSet<order> orders  { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -35,6 +36,10 @@ namespace LibraryUnivercity.entity
             {
                 librarians.HasKey(x => x.LibrarianID);
                 librarians.Property(x => x.LibrarianID).ValueGeneratedOnAdd();
+            }); builder.Entity<order>(orders =>
+            {
+                orders.HasKey(x => x.orderID);
+                orders.Property(x => x.orderID).ValueGeneratedOnAdd();
             });
         }
     }
