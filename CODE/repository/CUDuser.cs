@@ -15,11 +15,21 @@ namespace LibraryUnivercity.repository
         public readonly DataBase db;
         public bool SearchBook(BookModel bookModel)
         {
-            var search = db.books.Where(n => n.UserID == null).ToList();
-            Console.WriteLine("list of exist book is:");
-            Console.WriteLine(search);
-            return true;
+            try
+            {
+                var search = db.books.Where(n => n.UserID == null).ToList();
+                Console.WriteLine("list of exist book is:");
+                Console.WriteLine(search);
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+
+            }
         }
+
         public bool ShowBorrowList(UserModel userModel)
         {
             try
@@ -42,11 +52,30 @@ namespace LibraryUnivercity.repository
         }
         public bool AddTime(UserModel userModel, BookModel bookModel)
         {
-            //var search = db.users.Where(n => n.UserID == userModel.UserID).Include(x => x.rerbooks).First();
-            var search = db.books.Where(n => n.BookCode == bookModel.BookCode).Include(x => x.UserID).First();
-            var found = search.
-            
+            try { 
+            var search = db.users.Where(n => n.UserNationNumber == userModel.UserNationNumber).Include(x => x.rerbooks);
+            var person = search.First();
 
+            foreach(var item in person.rerbooks)
+            {
+                if (item.Time > 5)
+                {
+                    Console.WriteLine("you must return book");
+                }
+                else
+                {
+                    item.Time = 0;
+                    Console.WriteLine("time increases");
+                }
+            }
+
+            return true;
         }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
+}
     }
 }
