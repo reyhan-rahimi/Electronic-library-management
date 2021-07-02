@@ -13,7 +13,30 @@ namespace LibraryUnivercity.repository
     public class CUDuser :ICUDuser
     {
         public readonly DataBase db;
-        public bool SearchBook(BookModel bookModel)
+        public bool identityconfirmation(UserModel userModel)
+        {
+            try
+            {
+                var search = db.librarians
+                    .Where(x => x.LibrarianName == userModel.UserLastName)
+                    .Where(x => x.LibrarianLastName == userModel.UserLastName)
+                    .First();
+                if (search != null)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
+        }
+            public bool SearchBook(BookModel bookModel)
         {
             try
             {

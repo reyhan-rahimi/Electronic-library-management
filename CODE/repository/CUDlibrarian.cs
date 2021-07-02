@@ -16,6 +16,30 @@ namespace LibraryUnivercity.repository
         {
             this.db = DB;
         }
+        public bool identityconfirmation(LibrarianModel librarianModel)
+        {
+            try
+            {
+                var search = db.librarians
+                    .Where(x => x.LibrarianName == librarianModel.LibrarianName)
+                    .Where(x => x.LibrarianLastName == librarianModel.LibrarianLastName)
+                    .Where(x => x.LibrarianPassword == librarianModel.LibrarianPassword)
+                    .First();
+                if (search != null)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
+}
         public User CreateAccount(User user)
          {
             try
@@ -224,8 +248,8 @@ namespace LibraryUnivercity.repository
     {
             try
             {
-               
 
+                return true;
 
             }
             catch (Exception e)
